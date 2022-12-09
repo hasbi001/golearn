@@ -18,6 +18,7 @@ func main(){
 	var nohp uint64 = 	812334343
 	fmt.Println(nohp);			
 
+	// multiple define variable
 	var (
 		counter = 0
 		email = "lambemuasem@gmail.com"
