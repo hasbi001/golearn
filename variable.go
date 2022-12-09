@@ -17,4 +17,12 @@ func main(){
 	// int not allowed 0 in first number
 	var nohp uint64 = 	812334343
 	fmt.Println(nohp);			
+
+	var (
+		counter = 0
+		email = "lambemuasem@gmail.com"
+	)
+
+	fmt.Println(counter);
+	fmt.Println(email);	
 }
