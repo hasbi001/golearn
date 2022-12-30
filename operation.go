@@ -16,4 +16,11 @@ func main(){
 	fmt.Println(no2);
 	no2++
 	fmt.Println(no2%2);
+
+	// 2. Perbandingan < > == != >= <=
+	if no1 != no2 {
+		fmt.Println("true");	
+	} else {
+		fmt.Println("false");
+	}
 }
