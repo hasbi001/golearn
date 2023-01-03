@@ -23,4 +23,13 @@ func main(){
 	} else {
 		fmt.Println("false");
 	}
+
+	var no3 int32
+	no3 = 20
+	// 3. Boolean && || !
+	if (no3 > no1) && (no3>no2) {
+		fmt.Println("true");	
+	} else {
+		fmt.Println("false");
+	}
 }
