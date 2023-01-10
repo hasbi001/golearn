@@ -18,9 +18,15 @@ func main(){
 		"desember",
 	}
 
-	var slice1 = monts[4:7]
+	slice1 := monts[4:7]
 	fmt.Println(monts)
 	fmt.Println(slice1)
 	fmt.Println(len(slice1))
 	fmt.Println(cap(slice1))
+
+	slice1[0]="mei syah"
+	fmt.Println(monts)
+
+	append1 := append(slice1, "desember ceria")
+	fmt.Println(append1)
 }
